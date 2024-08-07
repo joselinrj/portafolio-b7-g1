@@ -1,0 +1,37 @@
+#presentacion {
+    height: 90vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    background-image: url("assets/fondo.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.proyecto {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#proyecto-1{
+    background-image: url("assets/");
+}
+
+#proyecto-2{
+    background-image: url("assets/nuevologo.webp");
+}
+
+
+.text-shadow-1 {text-shadow: -2px 0px 6px rgba(0, 0, 0, 1);}
+
+.text-shadow-2 { text-shadow: 0 .25rem .5rem rgba(0, 0, 0, .25); }
+
+.text-shadow-3 { text-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .25); }
+
+
+.texto-gigante{
+    font-size: 80px;
+}

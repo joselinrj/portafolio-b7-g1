@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joselin Romano</title>
+    <title>Joseline Romano</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Pixels&display=swap" rel="stylesheet">
+
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -15,15 +22,15 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md bg-black">
-            <div class="container-fluid">
-                <a class="navbar-brand text-white" href="#">Joselin</a>
+        <nav class="navbar fixed-top navbar-expand-md bg-black" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand text-white" href="#">Joseline</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
+                    <ul class="navbar-nav ">
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="#">Yo</a>
                         </li>
@@ -43,214 +50,192 @@
                 </div>
             </div>
         </nav>
-
     </header>
 
+    <main class="pb-3">
 
-
-    <main>
-        <section id="presentacion" class="px-4 pt-5 my-5 text-center border-bottom">
-            <h1 class="display-4 fw-bold text-body-emphasis">Joselin Romano</h1>
-            <div class="col-lg-6 mx-auto">
-              <p class="lead mb-4">Esudiante de diseño gráfico</p>
-              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Contáctame</button>
-                <button type="button" class="btn btn-outline-secondary btn-lg px-4">joselin978@gmail.com</button>
-              </div>
+        <section id="presentacion" class="container-fluid" data-bs-theme="dark">
+            <div class="container col-xxl-8 px-4 py-5 d-flex justify-content-start align-items-center">
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <div class="col-lg-6 bg-black p-3">
+                        <h1 id="app" class="display-5 fw-bold text-white text-shadow-1 lh-1 mb-3 rubik-pixels-regular">Joseline Romano
+                        </h1>
+                        <p class="lead text-white text-shadow-1">Estudiante de diseño gráfico, amante de las series coreanas 
+                        </p>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                            <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Contáctame</button>
+                            <button type="button"
+                                class="btn btn-outline-secondary btn-lg px-4">yoselinromano978@gmail.com</button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </section>
+        </section>
+
 
         <section id="habilidades" class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Hanging icons</h2>
+            <!-- Título de mi sección  -->
+            <h2 class="pb-2 border-bottom">Habilidades</h2>
+            <!-- Contenedor de mis cartas-->
             <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                <div class="col d-flex align-items-start">
+
+                <div class="feature col">
                     <div
-                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg class="bi" width="1em" height="1em">
-                            <use xlink:href="#toggles2"></use>
-                        </svg>
+                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-code-square"></i>
                     </div>
-                    <div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                            sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
-                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Desarrollo web</h3>
+                    <p>Conocimientos en HTML, JS, CSS.</p>
                 </div>
-                <div class="col d-flex align-items-start">
+
+                <div class="feature col">
                     <div
-                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg class="bi" width="1em" height="1em">
-                            <use xlink:href="#cpu-fill"></use>
-                        </svg>
+                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-people"></i>
                     </div>
-                    <div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                            sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
-                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Trabajo en equipo</h3>
+                    <p>Colaboro con equipos multidisciplinarios.</p>
                 </div>
-                <div class="col d-flex align-items-start">
+
+                <div class="feature col">
                     <div
-                        class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
-                        <svg class="bi" width="1em" height="1em">
-                            <use xlink:href="#tools"></use>
-                        </svg>
+                        class="d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 py-2 px-3 rounded">
+                        <i class="bi bi-award"></i>
                     </div>
-                    <div>
-                        <h3 class="fs-2 text-body-emphasis">Featured title</h3>
-                        <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another
-                            sentence and probably just keep going until we run out of words.</p>
-                        <a href="#" class="btn btn-primary">
-                            Primary button
-                        </a>
-                    </div>
+                    <h3 class="fs-2 text-body-emphasis my-2">Responsabilidad</h3>
+                    <p>Compromiso por mis responsabilidades.</p>
                 </div>
+
             </div>
         </section>
-        
+
+
         <section id="proyectos" class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Custom cards</h2>
-        
+            <h2 class="pb-2 border-bottom">Proyectos</h2>
+
             <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Short title, long jacket</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Earth</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>3d</small>
-                      </li>
-                    </ul>
-                  </div>
+
+
+                <div class="col">
+
+                    <div id="proyecto-1" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Primera pagina.</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="http://" target="_blank" class="ps-3">URL</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Much longer title that wraps to multiple lines</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Pakistan</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>4d</small>
-                      </li>
-                    </ul>
-                  </div>
+
+                <div class="col">
+                    <div id="proyecto-2" class="proyecto card card-cover h-100 overflow-hidden rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Clon de google.</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="d-flex align-items-center me-3">
+                                    <i class="bi bi-code-square"></i>
+                                    <a href="https://clongoogl.netlify.app/" target="_blank" class="ps-3">URL</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-              </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Another longer title belongs here</h3>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>California</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>5d</small>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
             </div>
-          </section>
+
+        </section>
+
 
         <section id="testimonios">
-            <div id="myCarousel" class="carousel slide mb-6" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
-                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" class=""></button>
-                </div>
+            <h1 class="text-center my-5">Testimonios</h1>
+            <div id="myCarousel" class="carousel slide carousel-dark mb-6 carousel-fade" data-bs-theme="dark"
+                data-bs-ride="carousel">
+
                 <div class="carousel-inner">
-                  <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                    <div class="container">
-                      <div class="carousel-caption text-start">
-                        <h1>Example headline.</h1>
-                        <p class="opacity-75">Some representative placeholder content for the first slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
-                      </div>
+
+                    <div class="carousel-item active">
+                        <article class="container text-center">
+                            <img class="rounded-5" src="assets/bang.jpg" height="200" alt="Bang">
+                            <h3 class="my-3">Christopher Bang</h3>
+                            <p>"Joseline es una estudiante excepcional."</p>
+                        </article>
                     </div>
-                  </div>
-                  <div class="carousel-item active">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                    <div class="container">
-                      <div class="carousel-caption">
-                        <h1>Another example headline.</h1>
-                        <p>Some representative placeholder content for the second slide of the carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
-                      </div>
+
+                    <div class="carousel-item">
+                        <article class="container text-center">
+                            <img class="rounded-5" src="assets/Remedios-Varo.jpg" height="200" alt="Varo">
+                            <h3 class="my-3">Remedios Varo</h3>
+                            <p>"Joseline es una estudiante excepcional."</p>
+                        </article>
                     </div>
-                  </div>
-                  <div class="carousel-item">
-                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-                    <div class="container">
-                      <div class="carousel-caption text-end">
-                        <h1>One more for good measure.</h1>
-                        <p>Some representative placeholder content for the third slide of this carousel.</p>
-                        <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
-                      </div>
+
+                    <div class="carousel-item">
+                        <article class="container text-center">
+                            <img class="rounded-5" src="assets/pato.jpg" height="200" alt="Pato">
+                            <h3 class="my-3">Pato</h3>
+                            <p>"Joseline es una estudiante excepcional."</p>
+                        </article>
                     </div>
-                  </div>
+
+
+
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </section>
-
 
     </main>
 
-
-    <footer id="contacto" class="py-3 my-4">
+    <footer id="contacto" class="bg-black py-3 mt-5" data-bs-theme="dark">
+        <p class="mt-5 text-white text-center texto-gigante">
+            <i class="bi bi-file-code-fill"></i>
+        </p>
+        <h4 id="frase" class="text-white text-center mb-5">"...Por lo tanto, lo que debemos hacer es esforzarnos y perseverar y
+            NUNCA RENDIRNOS."</h4>
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-          <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item fs-1 ">
+                <a href="https://github.com/joselinrj" target="_blank" class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-github text-success-emphasis"></i>
+                </a>
+            </li>
+
+            <li class="nav-item fs-1 ">
+                <a href="https://www.instagram.com/yos_romano?igsh=bWc4aTV6aXB6Mnl4" target="_blank" class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-instagram text-success-emphasis"></i>
+                </a>
+            </li>
+
+            <li class="nav-item fs-1">
+                <a href="https://www.tiktok.com/@yos_linnn?_t=8ocmIdE35Ms&_r=1" target="_blank" class="nav-link px-5 text-body-secondary">
+                    <i class="bi bi-tiktok text-success-emphasis"></i>
+                </a>
+            </li>
         </ul>
-        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-      </footer>
+        <p class="text-center text-white">© 2024 Joseline, TECHNOLOCHICAS PRO</p>
+    </footer>
+
+
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+
+    <script src="script.js"></script>
+
 </body>
 
 </html>
