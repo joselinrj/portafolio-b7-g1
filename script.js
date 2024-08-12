@@ -27,9 +27,9 @@ typewriter
   
   typewriterFrase
     .pauseFor(2500)
-    .typeString('..Por lo tanto, lo que debemos hacer es esforzarnos y perseverar y')
+    .typeString('La idea no es vivir para siempre: la idea es crear algo que sí lo haga')
     .pauseFor(300)
     .deleteAll()
-    .typeString('hdhjgcvehvg')
+    .typeString('Andy Warhol')
     .pauseFor(1000)
     .start();

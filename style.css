@@ -21,7 +21,7 @@
 }
 
 #proyecto-2{
-    background-image: url("assets/nuevologo.webp");
+    background-image: url("assets/100th-anniversary-of-bauhaus.gif");
 }
 
 
@@ -34,4 +34,12 @@
 
 .texto-gigante{
     font-size: 80px;
+}
+
+nav {
+    background-color: #0faba9;
+}
+
+footer{
+    background-color: #0faba9;
 }

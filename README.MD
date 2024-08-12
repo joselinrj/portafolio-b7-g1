@@ -9,7 +9,15 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 [Proyecto desplegado (https://joselinnn.netlify.app/)](https://joselinnn.netlify.app/)
 
 ## Secciones de mi sitio
+![Presentación](assets/readme/1.png)
 
+![Habilidades](assets/readme/2.png)
+
+![Proyectos](assets/readme/3.png)
+
+![Testimonios](assets/readme/4.png)
+
+![Contacto](assets/readme/5.png)
 
 ## Tecnologías
 * HTML
@@ -17,4 +25,4 @@ La página es responsiva (adaptable a diferentes tamaños de pantalla) e incluye
 * Bootstrap 
 * Javascript
 ---
-Desarrollado por [Joseline] en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)  💜
+Desarrollado por Joseline en [TECHNOLOCHICAS PRO](https://tecnolochicas.mx/)  💜
