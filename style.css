@@ -17,7 +17,7 @@
 }
 
 #proyecto-1{
-    background-image: url("assets/");
+    background-image: url("assets/cnco.png");
 }
 
 #proyecto-2{
@@ -41,5 +41,9 @@ nav {
 }
 
 footer{
+    background-color: #0faba9;
+}
+
+#btn1, #cuadro {
     background-color: #0faba9;
 }
